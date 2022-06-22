@@ -1,0 +1,103 @@
+body {
+  font-family: "Patua One", cursive;
+  letter-spacing: 1px;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.contant {
+  text-align: center;
+  background: rgb(240, 73, 23);
+  width: 60%;
+  height: 50%;
+  margin: 40px auto;
+  padding: 20px 0 0 0;
+}
+
+.resultado {
+  width: 90%;
+  height: 30%;
+  margin: 25px auto;
+  background: #070707;
+  border: solid 4px rgb(209, 138, 31);
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  border: solid 3px;
+}
+
+select {
+  font-family: "Montserrat", sans-serif;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+label {
+  color: white;
+}
+
+button {
+  width: 20%;
+  height: 35px;
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  transition: 1s background;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(255, 136, 0);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
